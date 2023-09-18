@@ -89,8 +89,8 @@ class Paint(object):
         self.load_image_button2 = Button(self.root, text='load image', command=self.load_image2)
         self.load_image_button2.grid(row=2, column=4)
 
-        self.hello_world_button = Button(self.root, text='CONFRONTA', command=self.compare)
-        self.hello_world_button.grid(row=4, column=0, columnspan=6)
+        self.compare_button = Button(self.root, text='COMPARE', command=self.compare)
+        self.compare_button.grid(row=4, column=0, columnspan=6)
 
 
         self.c1 = Canvas(self.root, bg='white', width=512, height=512)
